@@ -81,5 +81,46 @@ lib/
 
 1. **Clone repositori**
    ```bash
+   git clone 
+> 🔍 **Catatan Arsitektur**  
+> - Menggunakan pendekatan modular berbasis folder (`Pages`, `Controllers`, `Models`).  
+> - `Pages/Navbar/` berisi halaman utama aplikasi dengan navigasi bawah.  
+> - `Data/Models/` menyimpan class model (misal: `Student`, `News`, `User`).  
+> - `Service/` menangani komunikasi dengan backend Laravel (via HTTP/Dio).
+
+---
+
+## 🖼️ Screenshots Aplikasi
+
+| Halaman | Preview | Deskripsi |
+|---------|---------|-----------|
+| **Splash / Onboarding** | ![Splash](assets/images/1Place_screen.jpg) | Layar awal aplikasi |
+| **Home Page** | ![Home](assets/images/2HomePage.jpg) | Dashboard utama: ringkasan kelas, akses cepat, notifikasi |
+| **Data Siswa** | ![Siswa](assets/images/3data_siswa.jpg) | Daftar siswa dengan opsi edit & hapus |
+| **Tambah Siswa** | ![Tambah](assets/images/4Tambah_siswa.jpg) | Form input data siswa baru |
+| **Hapus Siswa** | ![Hapus](assets/images/5hapus_siswa.jpg) | Dialog konfirmasi penghapusan |
+| **Berita Kelas** | ![News](assets/images/6News.jpg) | Buat & kelola pengumuman untuk siswa |
+| **Profil Guru** | ![Profil](assets/images/7Profile.jpg) | Halaman profil modern dengan foto, statistik, dan pengaturan |
+
+> ⚠️ Pastikan file gambar tersedia di folder `assets/images/` dan dideklarasikan di `pubspec.yaml`:
+> ```yaml
+> flutter:
+>   assets:
+>     - assets/images/1Place_screen.jpg
+>     - assets/images/2HomePage.jpg
+>     - assets/images/3data_siswa.jpg
+>     - assets/images/4Tambah_siswa.jpg
+>     - assets/images/5hapus_siswa.jpg
+>     - assets/images/6News.jpg
+>     - assets/images/7Profile.jpg
+> ```
+
+---
+
+## ⚙️ Setup & Run
+
+1. **Clone repositori**
+   ```bash
    git clone https://github.com/nama-anda/aplikasi-siswa-guru.git
+   cd aplikasi-siswa-guru
    cd aplikasi-siswa-guru
