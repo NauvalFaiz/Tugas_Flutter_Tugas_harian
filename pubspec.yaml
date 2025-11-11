@@ -47,7 +47,6 @@ dependencies:
   google_fonts: ^6.3.2
   icons_launcher: ^3.0.3
 
-
 dev_dependencies:
 icons_launcher:
   image_path: "assets/images/logoSekolah.png"
@@ -96,6 +95,12 @@ flutter:
     - assets/images/logoSekolah.png
     - assets/images/profile.png
     - assets/images/1Splace_screen.jpg
+    - assets/images/2HomePage.jpg
+    - assets/images/3data_siswa.jpg
+    - assets/images/4Tambah_siswa.jpg
+    - assets/images/5hapus_siswa.jpg
+    - assets/images/6News.jpg
+    - assets/images/7Profile.jpg
 
   fonts:
     - family: Overpass
