@@ -102,20 +102,6 @@ lib/
 | **Berita Kelas** | ![News](assets/images/6News.jpg) | Buat & kelola pengumuman untuk siswa |
 | **Profil Guru** | ![Profil](assets/images/7Profile.jpg) | Halaman profil modern dengan foto, statistik, dan pengaturan |
 
-> ⚠️ Pastikan file gambar tersedia di folder `assets/images/` dan dideklarasikan di `pubspec.yaml`:
-> ```yaml
-> flutter:
->   assets:
->     - assets/images/1Place_screen.jpg
->     - assets/images/2HomePage.jpg
->     - assets/images/3data_siswa.jpg
->     - assets/images/4Tambah_siswa.jpg
->     - assets/images/5hapus_siswa.jpg
->     - assets/images/6News.jpg
->     - assets/images/7Profile.jpg
-> ```
-
----
 
 ## ⚙️ Setup & Run
 
