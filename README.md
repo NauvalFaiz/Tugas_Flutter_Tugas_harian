@@ -107,6 +107,6 @@ lib/
 
 1. **Clone repositori**
    ```bash
-   git clone https://github.com/nama-anda/aplikasi-siswa-guru.git
-   cd aplikasi-siswa-guru
-   cd aplikasi-siswa-guru
+   git clone https://github.com/NauvalFaiz/Tugas_Flutter_Tugas_harian.git
+   cd Disesuaikan dengan Tugas anda
+   
